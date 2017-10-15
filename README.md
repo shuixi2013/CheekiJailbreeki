@@ -1,8 +1,8 @@
 ** This project has been abandoned due to saigon being available now. It will be kept alive for historical and creative value.
 People are free to commit to the project and I will still be looking at pull requests.
-
+** Fork by @AeroPwn for testing and other **
 # CheekiJailbreeki
-A 10.2.1 jailbreak for 64-bit devices, for all squatters and communists
+A 10.2.1/10.3.1 jailbreak for 64-bit devices, for all squatters and communists
 
 *Please note: this is work in progress adopted into a xCode project with the right linker settings so it is easier to compile into an iPhone app for anyone but mainly meant for developers until it's finished. 
 
