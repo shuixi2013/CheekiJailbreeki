@@ -1,3 +1,6 @@
+** This project has been abandoned due to saigon being available now. It will be kept alive for historical and creative value.
+People are free to commit to the project and I will still be looking at pull requests.
+
 # CheekiJailbreeki
 A 10.2.1 jailbreak for 64-bit devices, for all squatters and communists
 
@@ -48,7 +51,8 @@ A 10.2.1 jailbreak for 64-bit devices, for all squatters and communists
 - Security Researcher Adam Donenfeld [@doadam](http://twitter.com/doadam) for opensourcing his IOSurface and AVEncoder exploits.
 - Security Researcher Ian Beer from Google Project Zero for opensourcing his NSXPC exploit (triple_fetch).
 - Security Researcher Coolstar [@coolstarorg](http://twitter.com/coolstarorg) for his patch-unpatch idea.
-- Luca Todesco, for being a cool guy and previous jailbreaks.
+- Luca Todesco, for the Yalu102 Kernel Patches.
+- Lokihardt for his WebKit exploit that will lead to JailbreakMe 2017.
 - Karl Marx and Friedrich Engels, for creating the roots of communism.
 - Boris Slav, for his great tutorials and videos.
 - Vladimir Putin, for being a b0ss.
@@ -63,6 +67,16 @@ A 10.2.1 jailbreak for 64-bit devices, for all squatters and communists
       cp ziva1 ../nsxpc2pc
       cp ziva1 ../nsxpc2pc/pocs/
       open ../nsxpc2pc.xcodeproj
+      
+# Problem Solving
+- Plug in your iDevice (Make Sure it is NOT Locked!)
+- Goto Window->Devices
+- Wait for the symbols to load
+- Make Sure To CHANGE your Signing team AND the name of the app id to something unique.
+- Example (com.cyka.blyat -> com.cyka.blyat.rashb)
+- Make sure you have provisioning profiles
+- Compile for the device plugged in instead of simulator
+- PROFIT??!!
 
 # To do
 - Fix the yalu102 offsets
